@@ -149,9 +149,6 @@ jobs:
       kpKpimgLink: ${{ matrix.repos.kp.kpimg_link }}
       useAnykernel: ${{ matrix.repos.AnyKernel3.use }}
 
-      useImage: ${{ matrix.repos.image.use }}
-      ogImageLink: ${{ matrix.repos.image.imageUrl }}
-
       ccache: ${{ matrix.repos.ccache }}
       additional_script_link: ${{ matrix.repos.additional_script_link }}
       additional_post_script_link: ${{ matrix.repos.additional_script_post_link }}
@@ -183,7 +180,6 @@ jobs:
           restore-keys: |
             ccache-${{ env.KERNEL_DEVICE_VENDOR }}-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ steps.ccache_key.outputs.CACHE_KEY }}
       - name: "Setup Anykernel3"
-        if: ${{ env.useAnykernel == 'true' }}
         env:
           params: "${{ toJSON(matrix.repos.AnyKernel3) }}"
         run: |
@@ -406,7 +402,6 @@ jobs:
           rm -rf ../out_kernel/Image
           mv ./oImage ../out_kernel/Image
       - name: "Pack AnyKernel3.zip"
-        if: ${{ env.useAnykernel == 'true' }}
         run: |
           ls -al
           cp -f -r ./out_kernel/. ./AnyKernel3/
@@ -447,7 +442,6 @@ jobs:
 
       - name: "Upload AnyKernel3 zip"
         uses: actions/upload-artifact@v4
-        if: ${{ env.useAnykernel == 'true' }}
         with:
           name: "${{ env.KERNEL_NAME }}-${{ env.KERNEL_VERSION_LATEST }}-${{ github.run_number }}-${{ env.KERNEL_VERSION_HASH }}-${{ github.event.inputs.config_type }}"
           path: ./AnyKernel3

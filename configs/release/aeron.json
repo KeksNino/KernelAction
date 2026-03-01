@@ -59,8 +59,6 @@
       }
     },
     "AnyKernel3": {
-      "use": true,
-      "release": true,
       "repo": "https://github.com/DPR-MoonWake/AnyKernel3",
       "branch": "aeron"
     }

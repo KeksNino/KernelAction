@@ -7,7 +7,7 @@
       "defconfig": "ruby_defconfig",
       "extraConfig": "vendor/lz4kd.config vendor/bbr.config vendor/noop.config vendor/kernelsu.config vendor/susfs.config",
       "repo": "https://github.com/DPR-MoonWake/moonwake_kernel_xiaomi_ruby",
-      "branch": "experimental"
+      "branch": "orange_moon"
     },
     "output_image": "Image.gz-dtb",
     "additional_script_link": "https://github.com/DPR-MoonWake/KernelAction/raw/main/scripts/moonx.sh",
@@ -25,7 +25,7 @@
     },
     "toolchains": [
       {
-        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/42d2c090c14c9c7f4dfd365ae551e2b959dc775c/clang-r584948b.tar.gz",
+        "repo": "https://gitlab.com/DR-KernelArchive/clang/r563880.git",
         "branch": "main",
         "name": "clang-AOSP",
         "binPath": ["/bin"]
@@ -58,8 +58,6 @@
       }
     },
     "AnyKernel3": {
-      "use": true,
-      "release": true,
       "repo": "https://github.com/DPR-MoonWake/AnyKernel3",
       "branch": "ruby_dev"
     }
