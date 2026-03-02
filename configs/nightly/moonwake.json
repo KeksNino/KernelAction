@@ -26,7 +26,7 @@
     },
     "toolchains": [
       {
-        "url": "https://github.com/ZyCromerZ/Clang/releases/download/21.0.0git-20250715-release/Clang-21.0.0git-20250715.tar.gz",
+        "repo": "https://github.com/DPR-MoonWake/linux-x86-clang-21.0.0-r563880",
         "branch": "main",
         "name": "clang-AOSP",
         "binPath": ["/bin"]
@@ -89,7 +89,7 @@
     },
     "toolchains": [
       {
-        "url": "https://github.com/ZyCromerZ/Clang/releases/download/21.0.0git-20250715-release/Clang-21.0.0git-20250715.tar.gz",
+        "repo": "https://github.com/DPR-MoonWake/linux-x86-clang-21.0.0-r563880",
         "branch": "main",
         "name": "clang-AOSP",
         "binPath": ["/bin"]
@@ -152,7 +152,7 @@
     },
     "toolchains": [
       {
-        "url": "https://github.com/ZyCromerZ/Clang/releases/download/21.0.0git-20250715-release/Clang-21.0.0git-20250715.tar.gz",
+        "repo": "https://github.com/DPR-MoonWake/linux-x86-clang-21.0.0-r563880",
         "branch": "main",
         "name": "clang-AOSP",
         "binPath": ["/bin"]

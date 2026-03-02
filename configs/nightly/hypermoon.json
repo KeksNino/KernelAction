@@ -26,8 +26,8 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/DPR-MoonWake/clang-r383902",
-        "branch": "aosp",
+        "repo": "https://github.com/DPR-MoonWake/linux-x86-clang-legacy",
+        "branch": "r383902",
         "name": "clang-AOSP",
         "binPath": ["/bin"]
       }
@@ -90,8 +90,8 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/DPR-MoonWake/clang-r383902",
-        "branch": "aosp",
+        "repo": "https://github.com/DPR-MoonWake/linux-x86-clang-legacy",
+        "branch": "r383902",
         "name": "clang-AOSP",
         "binPath": ["/bin"]
       }

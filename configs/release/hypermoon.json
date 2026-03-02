@@ -26,8 +26,8 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/DPR-MoonWake/clang-r383902",
-        "branch": "aosp",
+        "repo": "https://github.com/DPR-MoonWake/linux-x86-clang-legacy",
+        "branch": "r383902",
         "name": "clang-AOSP",
         "binPath": ["/bin"]
       }
@@ -82,16 +82,16 @@
     },
     "kernelsu": {
       "enable": true,
-      "setupLink": "https://raw.githubusercontent.com/DPR-MoonWake/KernelSU-Unified/refs/heads/susfs/kernel/setup.sh",
-      "setupArg": "susfs",
+      "setupLink": "https://raw.githubusercontent.com/DPR-MoonWake/RKSU/refs/heads/susfs-rksu-master/kernel/setup.sh",
+      "setupArg": "susfs-rksu-master",
       "setupName": "KernelSU",
       "needPatch": false,
       "susfsLink": ""
     },
     "toolchains": [
       {
-        "repo": "https://github.com/DPR-MoonWake/clang-r383902",
-        "branch": "aosp",
+        "repo": "https://github.com/DPR-MoonWake/linux-x86-clang-legacy",
+        "branch": "r383902",
         "name": "clang-AOSP",
         "binPath": ["/bin"]
       }
