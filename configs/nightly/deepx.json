@@ -7,7 +7,7 @@
       "defconfig": "ruby_defconfig",
       "extraConfig": "vendor/lz4kd.config vendor/bbr.config vendor/noop.config vendor/kernelsu.config vendor/susfs.config",
       "repo": "https://github.com/DPR-MoonWake/moonwake_kernel_xiaomi_ruby",
-      "branch": "susfs"
+      "branch": "reimplement-susfs"
     },
     "output_image": "Image.gz-dtb",
     "additional_script_link": "https://github.com/DPR-MoonWake/KernelAction/raw/main/scripts/deepx.sh",
