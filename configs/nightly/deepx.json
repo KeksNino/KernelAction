@@ -17,8 +17,8 @@
     },
     "kernelsu": {
       "enable": true,
-      "setupLink": "https://raw.githubusercontent.com/DPR-MoonWake/RKSU/refs/heads/main/kernel/setup.sh",
-      "setupArg": "susfs",
+      "setupLink": "https://raw.githubusercontent.com/XDL-MoonWake/KernelSU-Next/refs/heads/legacy-susfs-v2/kernel/setup.sh",
+      "setupArg": "legacy-susfs-v2",
       "setupName": "KernelSU",
       "needPatch": false,
       "susfsLink": ""
