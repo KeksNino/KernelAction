@@ -19,7 +19,7 @@
       "enable": true,
       "setupLink": "https://raw.githubusercontent.com/DPR-MoonWake/RKSU/refs/heads/main/kernel/setup.sh",
       "setupArg": "susfs",
-      "setupName": "KernelSU-Next",
+      "setupName": "KernelSU",
       "needPatch": false,
       "susfsLink": ""
     },
